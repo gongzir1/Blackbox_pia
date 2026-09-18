@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Experiment outputs and local checkpoints
+results_*/
+*.log
+*.pid
+*.tmp
+checkpoints/
+models/
+
+# Local environment and editor files
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Keep the included research assets, but ignore accidental large artifacts.
+*.safetensors
+*.bin
